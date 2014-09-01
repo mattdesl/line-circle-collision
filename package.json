@@ -5,7 +5,9 @@
   "main": "index.js",
   "license": "MIT",
   "author": "Matt DesLauriers <dave.des@gmail.com>",
-  "dependencies": {},
+  "dependencies": {
+    "point-circle-collision": "^1.0.0"
+  },
   "devDependencies": {
     "tape": "~2.13.2"
   },
