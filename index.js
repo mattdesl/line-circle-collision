@@ -2,7 +2,7 @@ var pointCircleCollide = require('point-circle-collision')
 
 var tmp = [0, 0]
 
-function circleLineCollision(a, b, circle, radius) {
+function lineCircleCollide(a, b, circle, radius) {
     //check to see if start or end points lie within circle 
     if (pointCircleCollide(a, circle, radius))
         return true
@@ -46,4 +46,4 @@ function circleLineCollision(a, b, circle, radius) {
             && pLen2 <= dLen2 && (px * dx + py * dy) >= 0
 }
 
-module.exports = circleLineCollision
+module.exports = lineCircleCollide
