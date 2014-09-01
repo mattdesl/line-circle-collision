@@ -1,5 +1,5 @@
 {
-  "name": "circle-line-collision",
+  "name": "line-circle-collision",
   "version": "1.0.1",
   "description": "line-circle collision test",
   "main": "index.js",
@@ -27,11 +27,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mattdesl/circle-line-collision.git"
+    "url": "git://github.com/mattdesl/line-circle-collision.git"
   },
-  "homepage": "https://github.com/mattdesl/circle-line-collision",
+  "homepage": "https://github.com/mattdesl/line-circle-collision",
   "bugs": {
-    "url": "https://github.com/mattdesl/circle-line-collision/issues"
+    "url": "https://github.com/mattdesl/line-circle-collision/issues"
   },
   "keywords": [
     "line",
