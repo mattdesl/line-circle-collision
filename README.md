@@ -4,7 +4,7 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-Performs a line-circle collision test, returning true if they intersect. Algorithm from [2D Game Collision](http://www.amazon.co.uk/2D-Game-Collision-Detection-introduction/dp/1479298123).
+Performs a line-circle collision test, returning true if they intersect. Algorithm from [2D Game Collision](http://www.amazon.co.uk/2D-Game-Collision-Detection-introduction/dp/1479298123) by Thomas Schwarzl.
 
 ```js
 var collide = require('line-circle-collision')
