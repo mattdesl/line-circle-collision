@@ -22,11 +22,13 @@ console.log(hit)
 
 [![NPM](https://nodei.co/npm/line-circle-collision.png)](https://nodei.co/npm/line-circle-collision/)
 
-### `collide(a, b, circle, radius)`
+### `collide(a, b, circle, radius[, nearest])`
 
 Performs a collision test with the line `a-b` and the given circle. Returns true if collision occurred.
 
 `a`, `b`, and `circle` are expected to be 2D vectors in the form of an array.
+
+If `nearest` is passed, the nearest point found during the intersection test will be stored into that vector. This is useful if you need to find the nearest point along the line for the intersection test. 
 
 ## License
 
