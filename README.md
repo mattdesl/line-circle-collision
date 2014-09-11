@@ -28,7 +28,7 @@ Performs a collision test with the line `a-b` and the given circle. Returns true
 
 `a`, `b`, and `circle` are expected to be 2D vectors in the form of an array.
 
-If `nearest` is passed, the nearest point found during the intersection test will be stored into that vector. This is useful if you need to find the nearest point along the line for the intersection test. 
+If `nearest` is passed, the nearest point found during the intersection test will be stored into that vector. This is useful if you need to find the nearest point along the line for the intersection test. If the hit returns false, you should not expect the value of `nearest` to have changed.
 
 ## License
 
