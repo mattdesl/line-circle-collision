@@ -16,6 +16,13 @@ var hit = collide(a, b, circle, radius)
 console.log(hit)
 ```
 
+You may also be interested in:
+
+- [point-in-triangle](https://www.npmjs.org/package/point-in-triangle)
+- [point-circle-collision](https://www.npmjs.org/package/point-circle-collision)
+- [triangle-circle-collision](https://www.npmjs.org/package/triangle-circle-collision)
+- [is-clockwise](https://www.npmjs.org/package/is-clockwise)
+
 ## Usage
 
 [![NPM](https://nodei.co/npm/line-circle-collision.png)](https://nodei.co/npm/line-circle-collision/)
