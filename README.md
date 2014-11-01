@@ -1,5 +1,3 @@
-[![browser support](https://ci.testling.com/mattdesl/line-circle-collision.png)](https://ci.testling.com/mattdesl/line-circle-collision)
-
 # line-circle-collision
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
